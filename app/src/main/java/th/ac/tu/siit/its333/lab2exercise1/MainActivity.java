@@ -71,7 +71,7 @@ public class MainActivity extends ActionBarActivity {
                     answer = answer / n;
                 }
             }
-            else if (i%2 != 0)
+            else
             {
                 op = tokens[i];
                 //Log.d("Op", "["+op+"]");
