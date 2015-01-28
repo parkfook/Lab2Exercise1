@@ -146,6 +146,7 @@ public class MainActivity extends ActionBarActivity {
         //Clear expr and updateExprDisplay
         expr = new StringBuffer();
         updateExprDisplay();
+        updateAnsDisplay("");
         //Display a toast that the value is cleared
         Toast t = Toast.makeText(this.getApplicationContext(),
                 "All cleared", Toast.LENGTH_SHORT);
