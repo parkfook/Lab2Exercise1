@@ -44,7 +44,6 @@ public class MainActivity extends ActionBarActivity {
         String e = expr.toString();
         String[] tokens = e.split("((?<=\\+)|(?=\\+))|((?<=\\-)|(?=\\-))|((?<=\\*)|(?=\\*))|((?<=/)|(?=/))");
         int i ;
-        //int result = Integer.parseInt(tokens[0]);
         int answer = 0;
         String op = "+";
         for(i=0;i<tokens.length;i++)
